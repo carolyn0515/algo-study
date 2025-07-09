@@ -6,7 +6,7 @@ output = []
 
 for _ in range(n):
     s = input().strip()
-    stack = []  # ✅ 매 테스트케이스마다 새로 초기화
+    stack = []  # 매 테스트케이스마다 새로 초기화
 
     for char in s:
         if char == '(':
